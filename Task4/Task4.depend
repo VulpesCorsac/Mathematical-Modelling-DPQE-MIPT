@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1385634939 source:c:\data\dropbox\c++ projects\calcus\task4\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<math.h>
+	<iomanip>
+

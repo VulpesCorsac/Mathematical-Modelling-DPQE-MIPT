@@ -1,0 +1,36 @@
+Started
+Inited
+Graph Inited
+Solved 0
+Solved 1
+Solved 2
+d0 = 0.0169202869, d0_analytics = 0.0100731889
+d1 = 0.0213686475, d1_analytics = 0.0189208430
+d2 = 0.0056629228, d2_analytics = 0.0055822505
+Started
+Inited
+Graph Inited
+Solved 0
+Solved 1
+Solved 2
+d0 = 0.0139200098, d0_analytics = 0.0160038938
+d1 = 0.0093067160, d1_analytics = 0.0086880315
+d2 = 0.0013842994, d2_analytics = 0.0013640151
+Started
+Inited
+Graph Inited
+Solved 0
+Solved 1
+Solved 2
+d0 = 0.0139200098, d0_analytics = 0.0160038938
+d1 = 0.0093067160, d1_analytics = 0.0086880315
+d2 = 0.0013842994, d2_analytics = 0.0013640151
+Started
+Inited
+Graph Inited
+Solved 0
+Solved 1
+Solved 2
+d0 = 0.0139200098, d0_analytics = 0.0160038938
+d1 = 0.0093067160, d1_analytics = 0.0086880315
+d2 = 0.0013842994, d2_analytics = 0.0013640151

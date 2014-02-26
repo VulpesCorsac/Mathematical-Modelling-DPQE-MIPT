@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1384006146 source:c:\data\dropbox\c++ projects\c++\main.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<vector>
+	<stdlib.h>
+	<math.h>
+
+1384084875 
+
+1384084875 source:/home/corsac/Dropbox/C++ Projects/Calcus/Task3_new/main.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<vector>
+	<stdlib.h>
+	<math.h>
+
+1384084875 source:c:\data\dropbox\c++ projects\calcus\task3_new\main.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<vector>
+	<stdlib.h>
+	<math.h>
+
+1384504686 source:/home/corsac/Dropbox/C++ Projects/Calcus/Task3_new/main.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<vector>
+	<stdlib.h>
+	<math.h>
+

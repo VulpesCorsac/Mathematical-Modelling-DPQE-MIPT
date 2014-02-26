@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1379185391 source:c:\data\c++ projects\calcus\task1\main.cpp
+	<dos.h>
+	<graphics.h>
+	<conio.h>
+	<algorithm>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<iomanip>
+	<math.h>
+	<time.h>
+	<string.h>
+	<string>
+	<vector>
+	<queue>
+	<set>
+	<map>
+	<list>
+	<assert.h>
+
+1379606132 source:c:\data\dropbox\c++ projects\calcus\task1\main.cpp
+	<conio.h>
+	<algorithm>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<iomanip>
+	<math.h>
+	<time.h>
+	<string.h>
+	<string>
+	<vector>
+	<queue>
+	<set>
+	<map>
+	<list>
+	<assert.h>
+
+1379668452 source:f:\data\task1\main.cpp
+	<dos.h>
+	<graphics.h>
+	<conio.h>
+	<algorithm>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<iomanip>
+	<math.h>
+	<time.h>
+	<string.h>
+	<string>
+	<vector>
+	<queue>
+	<set>
+	<map>
+	<list>
+	<assert.h>
+

@@ -1,0 +1,29 @@
+﻿Построение начато 02.10.2013 10:12:28.
+     1>Проект "C:\Data\Dropbox\C++ Projects\CalcusMod_2\CalcusMod_2\CalcusMod_2.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt WinMain.cpp
+         WinMain.cpp
+     1>WinMain.cpp(63): warning C4244: return: преобразование "long double" в "int", возможна потеря данных
+     1>WinMain.cpp(312): warning C4244: аргумент: преобразование "ldouble" в "int", возможна потеря данных
+     1>WinMain.cpp(313): warning C4244: аргумент: преобразование "ldouble" в "int", возможна потеря данных
+     1>WinMain.cpp(323): warning C4244: аргумент: преобразование "ldouble" в "int", возможна потеря данных
+     1>WinMain.cpp(332): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): см. объявление "sprintf"
+     1>WinMain.cpp(334): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): см. объявление "sprintf"
+     1>WinMain.cpp(339): warning C4244: аргумент: преобразование "ldouble" в "int", возможна потеря данных
+     1>WinMain.cpp(341): warning C4244: аргумент: преобразование "ldouble" в "int", возможна потеря данных
+     1>WinMain.cpp(348): warning C4244: аргумент: преобразование "ldouble" в "int", возможна потеря данных
+     1>WinMain.cpp(350): warning C4244: аргумент: преобразование "ldouble" в "int", возможна потеря данных
+     1>WinMain.cpp(448): warning C4244: инициализация: преобразование "long double" в "int", возможна потеря данных
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Data\Dropbox\C++ Projects\CalcusMod_2\Release\CalcusMod_2.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Data\Dropbox\C++ Projects\CalcusMod_2\Release\CalcusMod_2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Data\Dropbox\C++ Projects\CalcusMod_2\Release\CalcusMod_2.lib" /MACHINE:X86 /SAFESEH Release\WinMain.obj
+         Создание кода
+     1>c:\data\dropbox\c++ projects\calcusmod_2\calcusmod_2\winmain.cpp(332): warning C4700: использована неинициализированная локальная переменная "s"
+         Создание кода завершено
+         CalcusMod_2.vcxproj -> C:\Data\Dropbox\C++ Projects\CalcusMod_2\Release\CalcusMod_2.exe
+     1>Построение проекта "C:\Data\Dropbox\C++ Projects\CalcusMod_2\CalcusMod_2\CalcusMod_2.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:11.42

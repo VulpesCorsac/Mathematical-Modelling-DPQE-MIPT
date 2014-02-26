@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1391852640 source:c:\data\dropbox\c++ projects\calcus\random with weights\main.cpp
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<time.h>
+	<assert.h>
+	<map>
+
