@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1395321297 source:c:\data\dropbox\c++ projects\calcus\Задача о секретаре\main.cpp
+	<iostream>
+	<set>
+	<vector>
+	<stdlib.h>
+	<time.h>
+
+1395327835 source:c:\data\dropbox\c++ projects\calcus\Задача о секретаре\Задача о секретаре без графика быстрая без комментариев\main.cpp
+	<iostream>
+	<set>
+	<vector>
+	<stdlib.h>
+	<time.h>
+
+1395348859 source:c:\data\dropbox\c++ projects\calcus\Задача о секретаре\Задача о секретаре без графика быстрая\main.cpp
+	<iostream>
+	<set>
+	<vector>
+	<stdlib.h>
+	<time.h>
+

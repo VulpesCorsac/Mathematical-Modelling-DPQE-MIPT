@@ -1,0 +1,31 @@
+﻿Построение начато 23.11.2012 0:38:06.
+     1>Проект "E:\Numbers\Numbers\Numbers.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Numbers.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt 1.cpp 2.cpp /clr:nostdlib 
+         1.cpp
+         2.cpp
+     1>2.cpp(13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>2.cpp(16): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
+         Создание кода...
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Numbers\Debug\Numbers.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Numbers.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Numbers\Debug\Numbers.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\1.obj
+         Debug\2.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Numbers.vcxproj -> E:\Numbers\Debug\Numbers.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Numbers\Debug\Numbers.exe;#1" /manifest Debug\Numbers.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\Numbers.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Numbers.lastbuildstate".
+     1>Построение проекта "E:\Numbers\Numbers\Numbers.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.74

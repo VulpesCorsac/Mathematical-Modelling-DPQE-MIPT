@@ -1,0 +1,16 @@
+﻿Сборка начата 20.03.2014 17:48:35.
+     1>Проект "C:\Data\Dropbox\C++ Projects\Calcus\Задача о секретаре с графиком\Task5_VS\Task5_VS\Task5_VS.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Task5_VS.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Task5_VS.cpp
+         Task5_VS.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Data\Dropbox\C++ Projects\Calcus\Задача о секретаре с графиком\Task5_VS\Release\Task5_VS.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Data\Dropbox\C++ Projects\Calcus\Задача о секретаре с графиком\Task5_VS\Release\Task5_VS.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Data\Dropbox\C++ Projects\Calcus\Задача о секретаре с графиком\Task5_VS\Release\Task5_VS.lib" /MACHINE:X86 /SAFESEH Release\stdafx.obj
+         Release\Task5_VS.obj
+         Создание кода
+         Создание кода завершено
+         Task5_VS.vcxproj -> C:\Data\Dropbox\C++ Projects\Calcus\Задача о секретаре с графиком\Task5_VS\Release\Task5_VS.exe
+     1>Сборка проекта "C:\Data\Dropbox\C++ Projects\Calcus\Задача о секретаре с графиком\Task5_VS\Task5_VS\Task5_VS.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:04.86

@@ -1,0 +1,27 @@
+Ant_Name Vasya
+Ant_Type worker
+
+Command_Move left
+Number_Of_Messages 0
+
+Command_Move right
+Number_Of_Messages 0
+
+Command_Move up
+Number_Of_Messages 0
+
+Command_Move down
+Number_Of_Messages 0
+
+Command_Move left
+Number_Of_Messages 2
+Lion 2 6
+Food 9 14
+
+Command_Move left
+Number_Of_Messages 1
+Lion_Trace 4 8 6 4 7 5
+
+Command_Move stop
+Number_Of_Messages 1
+Queen_Command 3 0 2 4

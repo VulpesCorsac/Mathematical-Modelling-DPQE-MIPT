@@ -1,0 +1,182 @@
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include<conio.h>
+#include<string.h>
+float f1(float t, float v1, float u1, float u2, float k, float kc, float m, float a, float b);
+float f2(float t, float v2, float u1, float u2, float k, float kc, float m, float b);
+void drawn(float m, float k, float kc, float a, float b,FILE *fOut);
+void drawnrez(float m, float k, float kc, float b,FILE *fOut);
+int main ()
+{
+	FILE *fOut;
+	fOut = fopen("pro.txt","w");
+    float m, k, kc, a, b;
+    char s[100];
+    /*initwindow(640,480,"Oscilations" ,700);
+    n:
+    setcolor(15);
+    line(0,239,639,239);
+    line(319,0,319,479);
+    line(20,360,300,360);
+    line(159,259,159,459);
+    line(390,430,550,430);
+    line(390,430,390,300);
+    setcolor(6);
+    outtextxy(120,249,"Phase plane");
+    outtextxy(420,249,"Resonance curve");
+    outtextxy(450,12,"Results");*/
+    printf("Massa: ");
+    scanf("%f",&m);
+    printf("k: ");
+    scanf("%f",&k);
+    printf("kc: ");
+    scanf("%f",&kc);
+    printf("Gamma: ");
+    scanf("%f",&a);
+    printf("Введите коэффициент сопротивления: ");
+    scanf("%f",&b);
+    //drawnrez(1, 1, 0.2, 0.2);
+    //drawn(1, 1, 0.2, 1, 0.2);
+    drawn(m, k, kc, a, b,fOut);
+    drawnrez(m, k, kc, b,fOut);
+    scanf("%s",s);
+     /*if(strcmp(s,"н")==0)
+       {
+           cleardevice();
+           system("cls");
+           goto n;
+       }
+    getch();
+    closegraph();*/
+	fclose(fOut);
+    return 0;
+}
+float f1(float t, float v1, float u1, float u2, float k, float kc, float m, float a, float b)
+{
+      return -k/m*u1-kc/m*(u1-u2)-b/m*v1+cos(a*t)/m;
+}
+float f2(float t, float v2, float u1, float u2, float k, float kc, float m, float b)
+{
+      return -kc/m*(u2-u1)-k/m*u2-b/m*v2;
+}
+void drawn(float m, float k, float kc, float a, float b,FILE *fOut)
+{
+	
+     float n, u1, u2, t, uu1, uu2, uu11, uu21, uux;
+     float x1, x2, y1, y2;
+     float max;
+     int mutex=0;
+     char s[100];
+     n=0.002;
+     t=0;
+     u1=0;
+     u2=0;
+     uu1=0;
+     uu2=0;
+     max=0;
+     
+     while(!kbhit())
+       {
+           //putpixel(159+x1*10,360+uu1*30,12);
+           //putpixel(159+x2*10,360+uu2*30,11);
+           //putpixel(5+t*6,60+u1*10,13);
+           //putpixel(5+t*6,150+u2*10,13);
+          // printf("uu1= %f, uu2= %f\n",uu1,uu2);
+          // printf("u1= %f, u2= %f\n",u1,u2);
+           uu11=uu1+n/2*(f1(t,uu1,u1,u2,k,kc,m,a,b)+f1(t+n,uu1+n*f1(t,uu1,u1,u2,k,kc,m,a,b),u1+n*uu1,u2,k,kc,m,a,b));
+           uu21=uu2+n/2*(f2(t,uu2,u1,u2,k,kc,m,b)+f2(t+n,uu2+n*f2(t,uu2,u1,u2,k,kc,m,b),u1,u2+n*uu2,k,kc,m,b));
+           u1=u1+n*uu1+n*n/2*f1(t,uu1,u1,u2,k,kc,m,a,b);
+           u2=u2+n*uu2+n*n/2*f2(t,uu2,u1,u2,k,kc,m,b);
+           uu1=uu11;
+           uu2=uu21;
+           t+=n;
+           x1=-7+u1;
+           x2=7+u2;
+           if(max<fabs(u1))
+             {
+ 			     max=fabs(u1);
+		     }
+           if(max>fabs(u1)&&t>40&&mutex==0)
+             {
+                 fprintf(fOut,"A= %g\n",max);
+                 sprintf(s,"A= %g",max);
+                 //outtextxy(340,50,s);
+                 mutex=1;
+             }
+           if(fabs(x1-x2)<0.5)
+             {
+                 uux=uu1;
+                 uu1=uu2;
+                 uu2=uux;
+             }
+           if(t>52)
+             {break;}
+            
+       }
+}
+void drawnrez(float m, float k, float kc, float b,FILE *fOut)
+{
+     float n, u1, u2, t, uu1, uu2, uu11, uu21, max, uux, rez, level=0;
+     float x1, x2, y1, y2, a=0.2;
+     int mutex=0, number=0;
+     char s[300];
+     rez=0;
+     while(1)
+     {
+      max=0;
+      n=0.002;
+      t=0;
+      u1=0;
+      u2=0;
+      uu1=0;
+      uu2=0;
+      while(1)
+        {
+           uu11=uu1+n/2*(f1(t,uu1,u1,u2,k,kc,m,a,b)+f1(t+n,uu1+n*f1(t,uu1,u1,u2,k,kc,m,a,b),u1+n*uu1,u2,k,kc,m,a,b));
+           uu21=uu2+n/2*(f2(t,uu2,u1,u2,k,kc,m,b)+f2(t+n,uu2+n*f2(t,uu2,u1,u2,k,kc,m,b),u1,u2+n*uu2,k,kc,m,b));
+           u1=u1+n*uu1+n*n/2*f1(t,uu1,u1,u2,k,kc,m,a,b);
+           u2=u2+n*uu2+n*n/2*f2(t,uu2,u1,u2,k,kc,m,b);
+           uu1=uu11;
+           uu2=uu21;
+           t+=n;
+           x1=-7+u1;
+           x2=7+u2;
+           if(fabs(x1-x2)<0.5)
+             {
+                 uux=uu1;
+                 uu1=uu2;
+                 uu2=uux;
+             }
+           if(fabs(u1)>max&&t>70)
+             {max=fabs(u1);}
+           if(t>80)
+             {break;}
+             
+         }
+     /*  putpixel(400+a*60,450-max*40,5);
+       if(rez>max&&a>0.7&&mutex==0)
+         {
+   		   line(400+a*60,427,400+a*60,433);
+   		   number++;
+   		   sprintf(s,"a%d",number);
+   		   outtextxy(385+a*60,450,s);
+   		   sprintf(s,"a%d= %g",number,a);
+   		   outtextxy(350,50+15*number,s);
+   		   mutex=1;
+		 }*/
+       if(a<0.201)
+         {level=max;}
+       if(a>1&&max<level)
+         {
+             printf("Break\n");
+		     break;
+		 }
+       if(rez<max&&mutex==1)
+         {mutex=0;}
+       rez=max;
+       a+=0.001;
+     }
+            
+}

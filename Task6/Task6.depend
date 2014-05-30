@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1393060372 source:c:\data\dropbox\c++ projects\calcus\task6\main.cpp
+	<iostream>
+	<iomanip>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	"Geometry3D.hpp"
+
+1393007991 c:\data\dropbox\c++ projects\calcus\task6\geometry3d.hpp
+	<iostream>
+	"Math_templates.hpp"
+	"Point3D.hpp"
+	"Vector3D.hpp"
+	"Line3D.hpp"
+	"Plane3D.hpp"
+	"Sphere.hpp"
+	"Segment3D.hpp"
+	"Functions3D.hpp"
+
+1393052003 c:\data\dropbox\c++ projects\calcus\task6\math_templates.hpp
+
+1393006822 c:\data\dropbox\c++ projects\calcus\task6\point3d.hpp
+	"Geometry3D.hpp"
+
+1393060344 c:\data\dropbox\c++ projects\calcus\task6\vector3d.hpp
+	"Geometry3D.hpp"
+
+1392994093 c:\data\dropbox\c++ projects\calcus\task6\line3d.hpp
+	"Geometry3D.hpp"
+
+1393005272 c:\data\dropbox\c++ projects\calcus\task6\plane3d.hpp
+	"Geometry3D.hpp"
+
+1393004674 c:\data\dropbox\c++ projects\calcus\task6\sphere.hpp
+	"Geometry3D.hpp"
+
+1393058850 c:\data\dropbox\c++ projects\calcus\task6\segment3d.hpp
+	"Geometry3D.hpp"
+
+1393058543 c:\data\dropbox\c++ projects\calcus\task6\functions3d.hpp
+	"Geometry3D.hpp"
+	<math.h>
+	<algorithm>
+

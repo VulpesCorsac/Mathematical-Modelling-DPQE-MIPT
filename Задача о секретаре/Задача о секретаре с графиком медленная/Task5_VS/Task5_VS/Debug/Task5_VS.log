@@ -1,0 +1,20 @@
+﻿Сборка начата 21.02.2014 12:29:48.
+     1>Проект "C:\Data\Dropbox\C++ Projects\Calcus\Task5_VS\Task5_VS\Task5_VS.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Task5_VS.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Task5_VS.cpp
+         Task5_VS.cpp
+     1>c:\data\dropbox\c++ projects\calcus\task5_vs\task5_vs\task5_vs.cpp(496): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\data\dropbox\c++ projects\calcus\task5_vs\task5_vs\task5_vs.cpp(498): warning C4244: аргумент: преобразование "__int64" в "unsigned int", возможна потеря данных
+     1>c:\data\dropbox\c++ projects\calcus\task5_vs\task5_vs\task5_vs.cpp(510): warning C4244: аргумент: преобразование "__int64" в "unsigned int", возможна потеря данных
+     1>c:\data\dropbox\c++ projects\calcus\task5_vs\task5_vs\task5_vs.cpp(530): warning C4244: аргумент: преобразование "__int64" в "unsigned int", возможна потеря данных
+     1>c:\data\dropbox\c++ projects\calcus\task5_vs\task5_vs\task5_vs.cpp(678): warning C4244: =: преобразование "__int64" в "double", возможна потеря данных
+     1>c:\data\dropbox\c++ projects\calcus\task5_vs\task5_vs\task5_vs.cpp(636): warning C4101: kk: неиспользованная локальная переменная
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Data\Dropbox\C++ Projects\Calcus\Task5_VS\Debug\Task5_VS.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Data\Dropbox\C++ Projects\Calcus\Task5_VS\Debug\Task5_VS.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Data\Dropbox\C++ Projects\Calcus\Task5_VS\Debug\Task5_VS.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\Task5_VS.obj
+         Task5_VS.vcxproj -> C:\Data\Dropbox\C++ Projects\Calcus\Task5_VS\Debug\Task5_VS.exe
+     1>Сборка проекта "C:\Data\Dropbox\C++ Projects\Calcus\Task5_VS\Task5_VS\Task5_VS.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:08.50

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "предиктор насти", "предиктор насти\предиктор насти.vcproj", "{5CEEC829-EA7C-4B17-B420-7350C8D99E11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CEEC829-EA7C-4B17-B420-7350C8D99E11}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5CEEC829-EA7C-4B17-B420-7350C8D99E11}.Debug|Win32.Build.0 = Debug|Win32
+		{5CEEC829-EA7C-4B17-B420-7350C8D99E11}.Release|Win32.ActiveCfg = Release|Win32
+		{5CEEC829-EA7C-4B17-B420-7350C8D99E11}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

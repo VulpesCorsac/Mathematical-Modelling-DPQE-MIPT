@@ -32,6 +32,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Functions3D.hpp" />
+		<Unit filename="Geometry3D.hpp" />
+		<Unit filename="Line3D.hpp" />
+		<Unit filename="Math_templates.hpp" />
+		<Unit filename="Plane3D.hpp" />
+		<Unit filename="Point3D.hpp" />
+		<Unit filename="Segment3D.hpp" />
+		<Unit filename="Sphere.hpp" />
+		<Unit filename="Vector3D.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

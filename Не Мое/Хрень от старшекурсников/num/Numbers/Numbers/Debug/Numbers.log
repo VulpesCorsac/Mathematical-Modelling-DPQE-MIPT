@@ -1,0 +1,20 @@
+﻿Построение начато 21.12.2012 0:36:53.
+     1>Проект "E:\num\Numbers\Numbers\Numbers.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Numbers.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         Numbers.vcxproj -> E:\num\Numbers\Debug\Numbers.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Numbers.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Numbers.lastbuildstate".
+     1>Построение проекта "E:\num\Numbers\Numbers\Numbers.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.38

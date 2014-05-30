@@ -1,0 +1,6 @@
+1>------ Build started: Project: предиктор насти, Configuration: Debug Win32 ------
+1>Compiling...
+1>Project : error PRJ0002 : Error result -1073741502 returned from 'C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\cl.exe'.
+1>Build log was saved at "file://c:\Users\1\Desktop\Компмод\предиктор насти\предиктор насти\Debug\BuildLog.htm"
+1>предиктор насти - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/oop/!svn/ver/337/trunk/cow
+END
+CommandWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/oop/!svn/ver/252/trunk/cow/CommandWriter.h
+END
+State.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/oop/!svn/ver/256/trunk/cow/State.cpp
+END
+AntLoop.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/oop/!svn/ver/337/trunk/cow/AntLoop.h
+END
+StateParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/oop/!svn/ver/252/trunk/cow/StateParser.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/oop/!svn/ver/237/trunk/cow/main.cpp
+END
+State.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/oop/!svn/ver/256/trunk/cow/State.h
+END
+cow.pro
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/oop/!svn/ver/256/trunk/cow/cow.pro
+END
+CommandWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/oop/!svn/ver/252/trunk/cow/CommandWriter.cpp
+END
+AntLoop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/oop/!svn/ver/337/trunk/cow/AntLoop.cpp
+END
+StateParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/oop/!svn/ver/256/trunk/cow/StateParser.cpp
+END

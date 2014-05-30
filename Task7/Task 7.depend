@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1397809262 source:c:\data\dropbox\c++ projects\calcus\task7\main.cpp
+	<iostream>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	"FastDiscreteFourierTransform.hpp"
+	"Vector_complex_VS_real.hpp"
+
+1396688128 c:\data\dropbox\c++ projects\calcus\task7\fastdiscretefouriertransform.hpp
+	<vector>
+	<complex>
+
+1396361298 c:\data\dropbox\c++ projects\calcus\task7\vector_complex_vs_real.hpp
+	<vector>
+	<complex>
+	<assert.h>
+

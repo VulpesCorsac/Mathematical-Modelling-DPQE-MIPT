@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Эйлер ани">
+</Property><Property Name="Solution File" Value="F:\Компмод\Эйлер ани\Эйлер ани.sln">
+</Property><Property Name="Date" Value="16 ноября 2012 г.">
+</Property><Property Name="Time" Value="0:27">
+</Property></Properties><Event ErrorLevel="0" Project="Эйлер ани" Source="Эйлер ани\Эйлер ани.vcproj" Description="Converting project file 'F:\Компмод\Эйлер ани\Эйлер ани\Эйлер ани.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Эйлер ани" Source="Эйлер ани\Эйлер ани.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Эйлер ани" Source="Эйлер ани\Эйлер ани.vcproj" Description="Done converting to new project file 'F:\Компмод\Эйлер ани\Эйлер ани\Эйлер ани.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Эйлер ани" Source="Эйлер ани\Эйлер ани.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Эйлер ани.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Эйлер ани.sln" Description="Converted">
+</Event></UpgradeLog>

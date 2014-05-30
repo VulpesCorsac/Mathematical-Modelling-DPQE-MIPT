@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+
+double h=0;
+double w0, y, A, l;
+
+double v(double xp, double vp, double tp);
+double x(double xp, double vp, double tp);
+double vcor(double xp, double vp, double tp);
+double xcor(double xp, double vp, double tp);
+
+double f(double x, double v, double t);
+double g(double x, double v, double t);
+
+int main()
+{
+	FILE* filename;
+	filename=fopen("2.txt", "w");
+	double t=0, tmax=20, xprev, xnext, vprev, vnext, x0, v0, otvetx, otvetv;
+	printf("Enter h:\n");
+	scanf("%lf", &h);
+	printf("Enter x0:\n");
+	scanf("%lf", &x0);
+	printf("Enter v0:\n");
+	scanf("%lf", &v0);
+	printf("Enter w0:\n");
+	scanf("%lf", &w0);
+	printf("Enter l:\n");
+	scanf("%lf", &l);
+	printf("Enter A:\n");
+	scanf("%lf", &A);
+	w0=y/A;
+	xprev=x0;
+	vprev=v0;
+	for(;t<=(tmax-h/4);t=t+h)
+	{
+		vnext=vcor(xprev, vprev, t);
+		xnext=xcor(xprev, vprev, t);
+		fprintf(filename ,"%.7lf %.7lf %.7lf %.7lf\n", t+h, vnext, xnext); 
+		if ((cos(abs(xnext))>=(abs(vnext*vnext))/(w0*w0)-h/4)&&(cos(abs(xnext))<=(abs(vnext*vnext))/(w0*w0)+h/4))
+		{
+			otvetx=abs(xnext);
+			otvetv=abs(vnext);
+		}
+		vprev=vnext;
+		xprev=xnext;
+	}
+
+	system("pause");
+	fclose(filename);
+}
+
+
+double v(double xp, double vp, double tp)
+{
+	return vp+h*g(xp,vp,tp);
+}
+
+double x(double xp, double vp, double tp)
+{
+	return xp+h*f(xp,vp,tp);
+}
+
+double vcor(double xp, double vp, double tp)
+{
+	return vp+0.5*h*(g(xp, vp, tp)+g(x(xp, vp, tp), v(xp, vp, tp), tp+h));
+}
+
+double xcor(double xp, double vp, double tp)
+{
+	return xp+0.5*h*(f(xp, vp, tp)+f(x(xp, vp, tp), v(xp, vp, tp), tp+h));
+}
+
+double f(double x, double v, double t)
+{
+	return v;
+}
+double g(double x, double v, double t)
+{
+	return -2*l*v+w0*w0*sin(x);
+}

@@ -1,0 +1,65 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+#include <Math.h>
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+        : TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+Close();        
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+TrackBar1->Position=5;
+Series1->Clear();
+Series2->Clear();
+long double f,a,w,A,v,ff,t=0,h=0.0005,k1,k2,k3,k4;
+int i=0,ii;
+//a=StrToFloat(Edit1->Text.c_str());
+//a=a*2;
+w=StrToFloat(Edit2->Text.c_str());
+w=w*w;
+A=StrToFloat(Edit3->Text.c_str());
+v=StrToFloat(Edit4->Text.c_str());
+f=StrToFloat(Edit5->Text.c_str());
+ff=StrToFloat(Edit6->Text.c_str());
+
+ii=TrackBar1->Position;
+
+
+ while (!(Button2->Focused())) {
+ i++;
+ k1=h*((w+A*v*v*cos(v*t))*sin(f));
+  k2=h*((w+A*v*v*cos(v*(t+h/2)))*sin(f+k1/2));
+   k3=h*((w+A*v*v*cos(v*(t+h/2)))*sin(f+k2/2));
+    k4=h*((w+A*v*v*cos(v*(t+h)))*sin(f+k3));
+    ff-=(k1+2*k2+2*k3+k4)/6;
+ f+=h*ff;
+ t+=h;
+ if (i%ii==1)
+ {
+        Series1->AddXY(f,ff,"",clRed);
+        Series2->AddXY(t,f,"",clRed);
+ }
+ ii=TrackBar1->Position;
+
+
+
+ Application->ProcessMessages();
+ }
+}
+//---------------------------------------------------------------------------
+

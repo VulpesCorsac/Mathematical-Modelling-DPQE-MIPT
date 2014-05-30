@@ -1,0 +1,8 @@
+#! /usr/bin/gnuplot -persist
+set terminal postscript solid color eps enhanced 
+set output "~/info.ps"
+set encoding koi8r
+#set yrange [-2:2]
+set style line 1 lt 3 pt 6 ps 0.01
+plot "info.txt" with lines
+

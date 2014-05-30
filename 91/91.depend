@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1397037438 source:c:\data\dropbox\c++ projects\calcus\91\main.cpp
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<time.h>
+

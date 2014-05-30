@@ -1,0 +1,19 @@
+﻿Сборка начата 18.04.2014 12:31:54.
+     1>Проект "C:\Data\Dropbox\C++ Projects\Calcus\Renata\Renata\Renata.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Renata.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Renata.cpp
+         Renata.cpp
+     1>c:\data\dropbox\c++ projects\calcus\renata\renata\renata.cpp(97): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(226): см. объявление "freopen"
+     1>c:\data\dropbox\c++ projects\calcus\renata\renata\renata.cpp(99): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\data\dropbox\c++ projects\calcus\renata\renata\renata.cpp(108): error C2664: "HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)": невозможно преобразовать аргумент 2 из "const char [24]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>c:\data\dropbox\c++ projects\calcus\renata\renata\renata.cpp(166): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>c:\data\dropbox\c++ projects\calcus\renata\renata\renata.cpp(167): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\data\dropbox\c++ projects\calcus\renata\renata\renata.cpp(168): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\data\dropbox\c++ projects\calcus\renata\renata\renata.cpp(179): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>Сборка проекта "C:\Data\Dropbox\C++ Projects\Calcus\Renata\Renata\Renata.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:00.51

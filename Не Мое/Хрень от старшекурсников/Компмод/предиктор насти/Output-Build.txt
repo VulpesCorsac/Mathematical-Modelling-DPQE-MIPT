@@ -1,0 +1,15 @@
+1>------ Build started: Project: предиктор насти, Configuration: Debug Win32 ------
+1>Compiling...
+1>1.cpp
+1>c:\users\1\desktop\компмод\предиктор насти\предиктор насти\1.cpp(20) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        c:\program files (x86)\microsoft visual studio 9.0\vc\include\stdio.h(237) : see declaration of 'fopen'
+1>c:\users\1\desktop\компмод\предиктор насти\предиктор насти\1.cpp(23) : warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        c:\program files (x86)\microsoft visual studio 9.0\vc\include\stdio.h(306) : see declaration of 'scanf'
+1>c:\users\1\desktop\компмод\предиктор насти\предиктор насти\1.cpp(25) : warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        c:\program files (x86)\microsoft visual studio 9.0\vc\include\stdio.h(306) : see declaration of 'scanf'
+1>Linking...
+1>1.obj : error LNK2019: unresolved external symbol "double __cdecl f(double,double)" (?f@@YANNN@Z) referenced in function "double __cdecl x(double,double)" (?x@@YANNN@Z)
+1>C:\Users\1\Desktop\Компмод\предиктор насти\Debug\предиктор насти.exe : fatal error LNK1120: 1 unresolved externals
+1>Build log was saved at "file://c:\Users\1\Desktop\Компмод\предиктор насти\предиктор насти\Debug\BuildLog.htm"
+1>предиктор насти - 2 error(s), 3 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

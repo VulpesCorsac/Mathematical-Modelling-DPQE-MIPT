@@ -1,0 +1,36 @@
+K 10
+svn:ignore
+V 1264
+server-build-desktop
+server-build-desktop-Desktop_Qt_4_8_0_for_GCC__Qt_SDK__Debug
+server-build-desktop-Desktop_Qt_4_8_0_for_GCC__Qt_SDK__Release
+ant-build-desktop
+generator-build-desktop
+map.txt
+gamelog.txt
+ant-build-desktop-Desktop_Qt_4_8_0_for_GCC__Qt_SDK__Debug
+generator-build-desktop-Desktop_Qt_4_8_0_for_GCC__Qt_SDK__Debug
+generator-build-desktop-Desktop_Qt_4_8_0_for_GCC__Qt_SDK__Release
+ant-build-desktop-Desktop_Qt_4_8_1_for_GCC__Qt_SDK_________
+generator-build-desktop-Desktop_Qt_4_8_1_for_GCC__Qt_SDK_________
+manager-build-desktop-Desktop_Qt_4_8_1_for_GCC__Qt_SDK_________
+server-build-desktop-Desktop_Qt_4_8_1_for_GCC__Qt_SDK_________
+player-build-desktop
+manager-build-desktop
+sapper-build-desktop
+cow-build-desktop-Desktop_Qt_4_8_0_for_GCC__Qt_SDK__Debug
+log.txt
+manager-build-desktop-Desktop_Qt_4_8_0_for_GCC__Qt_SDK__Debug
+scout-build-desktop-Desktop_Qt_4_8_0_for_GCC__Qt_SDK__Debug
+cow-build-desktop
+hunter-build-desktop
+lion-build-desktop-Desktop_Qt_4_8_0_for_GCC__Qt_SDK__Debug
+player-build-desktop-Desktop_Qt_4_8_0_for_GCC__Qt_SDK__Debug
+scout-build-desktop
+cowboy-build-desktop
+worker-build-desktop
+cow-build-desktop-Desktop_Qt_4_8_1_for_GCC__Qt_SDK_________
+player-build-desktop-Desktop_Qt_4_8_1_for_GCC__Qt_SDK_________
+queen-build-desktop
+
+END

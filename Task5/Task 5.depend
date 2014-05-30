@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1392387557 source:c:\data\dropbox\c++ projects\calcus\task 5\main.cpp
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<tchar.h>
+	<algorithm>
+	<iostream>
+	<stdio.h>
+	<iomanip>
+	<math.h>
+	<time.h>
+	<string.h>
+	<string>
+	<vector>
+	<queue>
+	<set>
+	<map>
+	<list>
+	<assert.h>
+

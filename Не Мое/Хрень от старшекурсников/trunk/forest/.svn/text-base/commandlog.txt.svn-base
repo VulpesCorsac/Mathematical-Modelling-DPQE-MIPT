@@ -1,0 +1,7 @@
+Ant_Name Petya
+Ant_Type worker
+Command_Move stop
+
+Ant_Name Vasya
+Ant_Type worker
+Command_Move left

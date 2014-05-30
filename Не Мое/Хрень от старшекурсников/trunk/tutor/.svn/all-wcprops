@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/oop/!svn/ver/338/trunk/tutor
+END
+CommandWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/oop/!svn/ver/252/trunk/tutor/CommandWriter.h
+END
+State.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/oop/!svn/ver/256/trunk/tutor/State.cpp
+END
+AntLoop.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/oop/!svn/ver/314/trunk/tutor/AntLoop.h
+END
+StateParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/oop/!svn/ver/252/trunk/tutor/StateParser.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/oop/!svn/ver/237/trunk/tutor/main.cpp
+END
+State.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/oop/!svn/ver/256/trunk/tutor/State.h
+END
+CommandWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/oop/!svn/ver/252/trunk/tutor/CommandWriter.cpp
+END
+tutor.pro
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/oop/!svn/ver/256/trunk/tutor/tutor.pro
+END
+AntLoop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/oop/!svn/ver/338/trunk/tutor/AntLoop.cpp
+END
+StateParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/oop/!svn/ver/256/trunk/tutor/StateParser.cpp
+END

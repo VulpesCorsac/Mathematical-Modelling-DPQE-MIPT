@@ -1,0 +1,131 @@
+//---------------------------------------------------------------------------
+
+#include <math.h>
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+  : TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+   int i=0;
+  double /*w0=1*/l=1.0,n,x,v,xt,h/*w*/,period,kolper,/*v0*/x0,xOld,xpc,vpc,xcher=0,vcher=0,vpcOld,xpcOld,xt4h1=0,xt4h2=0,xtt4=0,xt4h2ek=0,xt4h1ek=0;
+	//A)
+  Chart1->Series[0]->Clear();
+  Chart2->Series[0]->Clear();
+  Chart2->Series[1]->Clear();
+  Chart1->Series[1]->Clear();
+  Label7->Caption="";
+  Label8->Caption="";
+  Label9->Caption="";
+  Label10->Caption="";
+  Label11->Caption="";
+  Label12->Caption="";
+  v=0;
+  x=0;
+  vpc=0;
+  xpc=0;
+  n=StrToFloat(Edit2->Text);
+  kolper=StrToFloat(Edit1->Text);
+  l=StrToFloat(Edit5->Text);
+  x=StrToFloat(Edit4->Text);
+  x0=x;
+  xpc=x;
+  vpc=v;
+
+	period=31,4;
+  h=period/n;
+  Chart1->Series[0]->AddXY(0,x0,"",clRed);
+  Chart1->Series[1]->AddXY(0,x0,"",clGreen);
+  for(i=0;i*h<=kolper*period;i++)
+  {
+    xOld=x;
+    //metod eilera - kromera
+    v=v+h*(cos(0.8*i*h)-x);
+    Chart1->Series[0]->AddXY((i+1)*h,x=x+h*v,"",clRed);
+
+          xt=10*sin(0.9*i*h)*sin(0.1*i*h);
+
+    Chart2->Series[0]->AddXY(i*h,xt-xOld,"",clRed);
+
+    //konec metoda eilera - kromera
+
+    vpcOld=vpc;
+    xpcOld=xpc;
+    Chart2->Series[1]->AddXY(i*h,xt-xpc,"",clGreen);
+
+    //metod pred-core ; vcher - v s 4ertoi u3 y4e6Huka 6Jl9
+
+    vcher=vpc+h*(cos(0.8*i*h)-xpc);
+    xcher=xpc+h*vpc;
+    vpc=vpc+(h/2)*((cos(0.8*i*h)-xpc)+cos(0.8*(i+1)*h)-xcher);
+//    xpc=xpc+(h/2)*(vpcOld+vcher);
+    Chart1->Series[1]->AddXY((i+2)*h,xpc=xpc+(h/2)*(vpcOld+vcher),"",clGreen);
+    if(i==n/4)
+    {
+        xt4h2ek=xOld;
+        xt4h2=xpcOld;
+        xtt4=xt;
+    }
+  }
+  xpc=x0;
+  vpc=0;
+  x=x0;
+  v=0;
+  for(i=0;i*h/2<=kolper*period;i++)
+  {
+    xOld=x;
+    v=v+(h/2)*(cos(0.8*i*h)-x);
+    x=x+(h/2)*v;
+    //xt=exp((-1)*i*h*l)*(x0*cos(w*i*h)+sin(w*i*h)*(l*x0+v0)/w);
+    //Chart2->Series[0]->AddXY(i*h,xt-xOld,"",clRed);
+    vpcOld=vpc;
+    xpcOld=xpc;
+    vcher=vpc+(h/2)*((cos(0.8*i*h)-xpc));
+    xcher=xpc+(h/2)*vpc;
+    vpc=vpc+(h/4)*((cos(0.8*i*h)-xpc) + cos(0.8*(i+1)*h)-xcher);
+    xpc=xpc+(h/4)*(vpcOld+vcher);
+    if(i==n/2)
+    {
+        xt4h1ek=xOld;
+        xt4h1=xpcOld;
+    }
+    //xt[i]=exp((-1)*i*h*l)*(x[0]*cos(w*i*h)+sin(w*i*h)*(l*x[0]+v[0])/w);
+    //Chart2->Series[0]->AddXY(i*h,xt[i]-x[i],"",clRed);
+  }
+  /*for(i=0;i*h/2<=kolper*period;i++)
+  {
+    xOld=x;
+    v=v+(h/2)*((-2)*l*v-w0*w0*x);
+    x=x+(h/2)*v;
+    if(i==n/2)
+    {
+        xt4h1ek=xOld;
+    }
+  }   */
+  Label7->Caption="Погрешность при одиночном шаге "+FloatToStr(xt4h1-xtt4);
+  Label8->Caption="Погрешность при двойном шаге "+FloatToStr(xt4h2-xtt4);
+  Label9->Caption="Погрешность по Рунге "+FloatToStr((xt4h2-xt4h1)/3);
+  Label10->Caption="Погрешность при одиночном шаге "+FloatToStr(xt4h1ek-xtt4);
+  Label11->Caption="Погрешность при двойном шаге "+FloatToStr(xt4h2ek-xtt4);
+  Label12->Caption="Погрешность по Рунге "+FloatToStr(xt4h2ek-xt4h1ek);
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::FormResize(TObject *Sender)
+{
+  Chart1->Align=alLeft;
+  Chart2->Align=alClient;
+}
+//---------------------------------------------------------------------------

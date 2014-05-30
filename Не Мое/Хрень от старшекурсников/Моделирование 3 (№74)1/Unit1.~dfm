@@ -1,0 +1,384 @@
+object Form1: TForm1
+  Left = 67
+  Top = 210
+  Width = 1301
+  Height = 582
+  HorzScrollBar.Position = 12
+  VertScrollBar.Position = 48
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Chart1: TChart
+    Left = -4
+    Top = -40
+    Width = 353
+    Height = 353
+    BackWall.Brush.Color = clWhite
+    BackWall.Brush.Style = bsClear
+    Title.Text.Strings = (
+      'V1(u1)')
+    Legend.Visible = False
+    View3D = False
+    TabOrder = 0
+    object Series1: TPointSeries
+      Marks.ArrowLength = 0
+      Marks.Visible = False
+      SeriesColor = clBlack
+      Pointer.Brush.Color = clBlack
+      Pointer.HorizSize = 2
+      Pointer.InflateMargins = True
+      Pointer.Style = psCircle
+      Pointer.VertSize = 2
+      Pointer.Visible = True
+      XValues.DateTime = False
+      XValues.Name = 'X'
+      XValues.Multiplier = 1
+      XValues.Order = loAscending
+      YValues.DateTime = False
+      YValues.Name = 'Y'
+      YValues.Multiplier = 1
+      YValues.Order = loNone
+    end
+  end
+  object Panel1: TPanel
+    Left = 1044
+    Top = -40
+    Width = 305
+    Height = 729
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 40
+      Top = 8
+      Width = 18
+      Height = 27
+      Caption = 'm'
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 40
+      Top = 40
+      Width = 12
+      Height = 27
+      Caption = 'k'
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 40
+      Top = 72
+      Width = 23
+      Height = 27
+      Caption = 'kc'
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 40
+      Top = 104
+      Width = 8
+      Height = 27
+      Caption = 'f'
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 40
+      Top = 136
+      Width = 11
+      Height = 27
+      Caption = 'g'
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label6: TLabel
+      Left = 16
+      Top = 168
+      Width = 49
+      Height = 27
+      Caption = 't min'
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label7: TLabel
+      Left = 16
+      Top = 200
+      Width = 54
+      Height = 27
+      Caption = 't max'
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Button1: TButton
+      Left = 24
+      Top = 240
+      Width = 273
+      Height = 41
+      Caption = #1060#1072#1079#1086#1074#1099#1077' '#1076#1080#1072#1075#1088#1072#1084#1084#1099
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 168
+      Top = 288
+      Width = 129
+      Height = 41
+      Caption = #1057#1090#1086#1087
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 24
+      Top = 288
+      Width = 129
+      Height = 41
+      Caption = #1054#1095#1080#1089#1090#1080#1090#1100
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      OnClick = Button3Click
+    end
+    object Button4: TButton
+      Left = 24
+      Top = 392
+      Width = 273
+      Height = 41
+      Caption = #1056#1077#1079#1086#1085#1072#1085#1089#1085#1099#1077' '#1082#1088#1080#1074#1099#1077
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+      OnClick = Button4Click
+    end
+    object Edit1: TEdit
+      Left = 72
+      Top = 16
+      Width = 73
+      Height = 21
+      TabOrder = 4
+      Text = 'Edit1'
+    end
+    object Edit2: TEdit
+      Left = 72
+      Top = 48
+      Width = 73
+      Height = 21
+      TabOrder = 5
+      Text = 'Edit2'
+    end
+    object Edit3: TEdit
+      Left = 72
+      Top = 80
+      Width = 73
+      Height = 21
+      TabOrder = 6
+      Text = 'Edit3'
+    end
+    object Edit4: TEdit
+      Left = 72
+      Top = 112
+      Width = 73
+      Height = 21
+      TabOrder = 7
+      Text = 'Edit4'
+    end
+    object Edit5: TEdit
+      Left = 72
+      Top = 144
+      Width = 73
+      Height = 21
+      TabOrder = 8
+      Text = 'Edit5'
+    end
+    object Edit6: TEdit
+      Left = 72
+      Top = 176
+      Width = 73
+      Height = 21
+      TabOrder = 9
+      Text = 'Edit6'
+    end
+    object Edit7: TEdit
+      Left = 72
+      Top = 208
+      Width = 73
+      Height = 21
+      TabOrder = 10
+      Text = 'Edit7'
+    end
+    object Button5: TButton
+      Left = 24
+      Top = 344
+      Width = 273
+      Height = 41
+      Caption = #1060#1072#1079#1086#1074#1099#1077' '#1076#1080#1072#1075#1088#1072#1084#1084#1099
+      Font.Charset = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 11
+      OnClick = Button5Click
+    end
+    object Memo1: TMemo
+      Left = 24
+      Top = 448
+      Width = 273
+      Height = 257
+      Lines.Strings = (
+        'Memo1')
+      TabOrder = 12
+    end
+  end
+  object Chart2: TChart
+    Left = -4
+    Top = 320
+    Width = 353
+    Height = 369
+    BackWall.Brush.Color = clWhite
+    BackWall.Brush.Style = bsClear
+    Title.Text.Strings = (
+      'V2(u2)')
+    Legend.Visible = False
+    View3D = False
+    TabOrder = 2
+    object Series2: TPointSeries
+      Marks.ArrowLength = 0
+      Marks.Visible = False
+      SeriesColor = clBlack
+      Pointer.Brush.Color = clBlack
+      Pointer.HorizSize = 2
+      Pointer.InflateMargins = True
+      Pointer.Style = psCircle
+      Pointer.VertSize = 2
+      Pointer.Visible = True
+      XValues.DateTime = False
+      XValues.Name = 'X'
+      XValues.Multiplier = 1
+      XValues.Order = loAscending
+      YValues.DateTime = False
+      YValues.Name = 'Y'
+      YValues.Multiplier = 1
+      YValues.Order = loNone
+    end
+  end
+  object Chart3: TChart
+    Left = 356
+    Top = -40
+    Width = 599
+    Height = 353
+    BackWall.Brush.Color = clWhite
+    BackWall.Brush.Style = bsClear
+    Title.Text.Strings = (
+      'u1(t)')
+    Legend.Visible = False
+    View3D = False
+    TabOrder = 3
+    object Series3: TLineSeries
+      Marks.ArrowLength = 0
+      Marks.Visible = False
+      SeriesColor = clBlack
+      LinePen.Width = 2
+      Pointer.HorizSize = 2
+      Pointer.InflateMargins = True
+      Pointer.Style = psCircle
+      Pointer.VertSize = 2
+      Pointer.Visible = False
+      XValues.DateTime = False
+      XValues.Name = 'X'
+      XValues.Multiplier = 1
+      XValues.Order = loAscending
+      YValues.DateTime = False
+      YValues.Name = 'Y'
+      YValues.Multiplier = 1
+      YValues.Order = loNone
+    end
+  end
+  object Chart4: TChart
+    Left = 354
+    Top = 320
+    Width = 601
+    Height = 369
+    BackWall.Brush.Color = clWhite
+    BackWall.Brush.Style = bsClear
+    Title.Text.Strings = (
+      'u2(t)')
+    Legend.Visible = False
+    View3D = False
+    TabOrder = 4
+    object Series4: TLineSeries
+      Marks.ArrowLength = 0
+      Marks.Visible = False
+      SeriesColor = clBlack
+      LinePen.Width = 2
+      Pointer.Brush.Color = clBlack
+      Pointer.HorizSize = 2
+      Pointer.InflateMargins = True
+      Pointer.Style = psCircle
+      Pointer.VertSize = 2
+      Pointer.Visible = False
+      XValues.DateTime = False
+      XValues.Name = 'X'
+      XValues.Multiplier = 1
+      XValues.Order = loAscending
+      YValues.DateTime = False
+      YValues.Name = 'Y'
+      YValues.Multiplier = 1
+      YValues.Order = loNone
+    end
+  end
+end

@@ -1,0 +1,26 @@
+  xpc=x0;
+  vpc=0;
+  x=x0;
+  v=0;
+  //после этой строки кусок стоял
+  for(i=0;i*h/2<=kolper*period;i++)
+  {
+    xOld=x;
+    v=v+(h/2)*(cos(0.8*i*h)-x);
+    x=x+(h/2)*v;
+    //xt=exp((-1)*i*h*l)*(x0*cos(w*i*h)+sin(w*i*h)*(l*x0+v0)/w);
+    //Chart2->Series[0]->AddXY(i*h,xt-xOld,"",clRed);
+    vpcOld=vpc;
+    xpcOld=xpc;
+    vcher=vpc+(h/2)*((cos(0.8*i*h)-xpc));
+    xcher=xpc+(h/2)*vpc;
+    vpc=vpc+(h/4)*((cos(0.8*i*h)-xpc) + cos(0.8*(i+1)*h)-xcher);
+    xpc=xpc+(h/4)*(vpcOld+vcher);
+ //   if(i==n/2)
+ //   {
+ //       xt4h1ek=xOld;
+ //       xt4h1=xpcOld;
+  //  }
+    //xt[i]=exp((-1)*i*h*l)*(x[0]*cos(w*i*h)+sin(w*i*h)*(l*x[0]+v[0])/w);
+    //Chart2->Series[0]->AddXY(i*h,xt[i]-x[i],"",clRed);
+   }

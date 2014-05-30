@@ -1,0 +1,133 @@
+Ant_Pos_X 1
+Ant_Pos_Y 1
+View_Size 3 
+View_Row_0 ###
+View_Row_1 #M.
+View_Row_2 #..
+
+Ant_Pos_X 2
+Ant_Pos_Y 1
+View_Size 3 
+View_Row_0 ###
+View_Row_1 .M.
+View_Row_2 ~~~
+
+Ant_Pos_X 3
+Ant_Pos_Y 1
+View_Size 3 
+View_Row_0 ###
+View_Row_1 .M.
+View_Row_2 ~~^
+
+Ant_Pos_X 4
+Ant_Pos_Y 1
+View_Size 3 
+View_Row_0 ###
+View_Row_1 .M.
+View_Row_2 ~^.
+
+Ant_Pos_X 5
+Ant_Pos_Y 1
+View_Size 3 
+View_Row_0 ###
+View_Row_1 .M.
+View_Row_2 ^..
+
+Ant_Pos_X 5
+Ant_Pos_Y 2
+View_Size 3 
+View_Row_0 ...
+View_Row_1 ^M.
+View_Row_2 ...
+
+Ant_Pos_X 5
+Ant_Pos_Y 3
+View_Size 3 
+View_Row_0 ^..
+View_Row_1 .M.
+View_Row_2 ...
+
+Ant_Pos_X 5
+Ant_Pos_Y 4
+View_Size 3 
+View_Row_0 ...
+View_Row_1 .M.
+View_Row_2 ...
+
+Ant_Pos_X 5
+Ant_Pos_Y 5
+View_Size 3 
+View_Row_0 ...
+View_Row_1 .M.
+View_Row_2 ...
+
+Ant_Pos_X 6
+Ant_Pos_Y 5
+View_Size 3 
+View_Row_0 ...
+View_Row_1 .M.
+View_Row_2 ..%
+
+Ant_Pos_X 7
+Ant_Pos_Y 5
+View_Size 3 
+View_Row_0 ...
+View_Row_1 .M.
+View_Row_2 .%.
+
+Ant_Pos_X 7
+Ant_Pos_Y 6
+View_Size 3 
+View_Row_0 ...
+View_Row_1 .M.
+View_Row_2 ...
+
+Ant_Pos_X 7
+Ant_Pos_Y 7
+View_Size 3 
+View_Row_0 ...
+View_Row_1 .M.
+View_Row_2 ..L
+
+Ant_Pos_X 6
+Ant_Pos_Y 7
+View_Size 3 
+View_Row_0 ...
+View_Row_1 .M.
+View_Row_2 ...
+
+Ant_Pos_X 5
+Ant_Pos_Y 7
+View_Size 3 
+View_Row_0 ...
+View_Row_1 .M.
+View_Row_2 ...
+
+Ant_Pos_X 4
+Ant_Pos_Y 7
+View_Size 3 
+View_Row_0 ...
+View_Row_1 .M.
+View_Row_2 &..
+
+Ant_Pos_X 3
+Ant_Pos_Y 7
+View_Size 3 
+View_Row_0 ...
+View_Row_1 .M.
+View_Row_2 .&.
+
+Ant_Pos_X 2
+Ant_Pos_Y 7
+View_Size 3 
+View_Row_0 ...
+View_Row_1 .M.
+View_Row_2 ..&
+
+Ant_Pos_X 1
+Ant_Pos_Y 7
+View_Size 3 
+View_Row_0 #..
+View_Row_1 #M.
+View_Row_2 #..
+
